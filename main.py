@@ -5,6 +5,7 @@ mcp = FastMCP("Demo 🚀")
 @mcp.tool
 def add(a: int, b: int) -> int:
     """Add two numbers"""
+    print(f"Adding {a} and {b} using MCP tool.")
     return a + b
 
 if __name__ == "__main__":
